@@ -1,0 +1,39 @@
+body {
+    margin:0px;
+    padding:0px;
+    font-size:16px;
+    box-sizing:border-box;
+    font-family: "Montserrat", sans-serif;
+ 
+}
+
+.hero {
+    display:flex;
+    justify-content: center; /*aligned horizonrtal*/
+    align-items: center; /*aligned vertical*/
+    height:100vh;
+    background-image: url(../images/history-hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+h1 {
+    color: white;
+    text-align: center;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+main section {
+    flex-grow: 1;
+    width: 30%;
+    margin: 10px;
+    background-color: blanchedalmond;
+    border-color:solid rgba(255, 169, 99, 0.717);
+    border-radius: 5px;
+    padding:5px;
+}
