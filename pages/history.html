@@ -12,13 +12,21 @@
 
 </head>
 <body>
+     <div id"<nav-placeholder"></div>
+        <script>
+            fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('nav-placeholder').innerHTML = data;
+            });
+        </script>
     <section class="hero">
-        <h1>a brief history of the internet</h1>
+        <h1>A Brief History of the Internet</h1>
     </section>
 <main> 
     <section data-aos="fade-up">
         <p><b>Dwight Eisenhower</b> - American politician and Army general who served as the 34th presidant of the United Staes from 1953 to 1961.</p>
-        <img src="images/1-ike.jpg" alt="Presidant Eisenhower" width="100%">
+        <img src="../images/1-ike.jpg" alt="Presidant Eisenhower" width="100%">
     </section>
     <section data-aos="fade-up">
         <p><b>Sputnik</b> the first artificial sattelite launched into space.</p>

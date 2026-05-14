@@ -8,10 +8,17 @@
     <link rel="stylesheet" href="../styles/images.css" type="text/css" >
 </head>
 <body>
-    
+     <div id"<nav-placeholder"></div>
+        <script>
+            fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('nav-placeholder').innerHTML = data;
+            });
+        </script>
     <header>
         <h1>Optimizing Images</h1>
-        <p> <a href="../index.html">return to home</a></p>
+        <p> <a href="../index.html">Return to Home</a></p>
     </header>
     <main class="pure-g">
         <section class="pure-u-1-3 pure-g">
