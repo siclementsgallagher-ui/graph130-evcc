@@ -1,14 +1,66 @@
-:root{
-    --blue:#11467d;
-    --green#4c7335;
-    --white#ffffff
-    color: var(--blue);
-    font-family: Arial,Helvetica, sans-serif;
+:root {
+    --green: #074817;
+    --white: #ffffff;
+    font-family: "Figtree", sans-serif;
 }
-body,header,main,footer,section,article,aside {
+body, header, main, footer, section, article, aside {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-size: 16px;
-    
+}
+
+main, header, nav ul, footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: lightgray;
+}
+
+main section {
+    border:solid white 1px;
+    text-align: center;
+    padding: 20px;
+}
+/* the following classes will govern the sections and make them work wiothin the grid */
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item7 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item8, .item9, .item10, .hero-orcas {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/* styling elements*/
+
+header {
+    background-color: var(--white);
+    text-align: center;
+}
+
+.hero-orcas {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+header a, header p {
+    color:lightgrey;
+    text-decoration: none;
+}
+.hero-orcas {
+    background-image: url(../images/sj-images/sj-034.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+h1 {
+    color: var(--white);
+    text-transform: uppercase;
+    text-shadow: #074817 3px 3px 3px;
 }
