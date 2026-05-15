@@ -13,11 +13,11 @@ body, header, main, footer, section, article, aside {
 main, header, nav ul, footer {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: lightgray;
+   
 }
 
 main section {
-    border:solid white 1px;
+   
     text-align: center;
     padding: 20px;
 }
@@ -25,6 +25,24 @@ main section {
 .item1 {
     grid-column-start: 1;
     grid-column-end: 3;
+}
+.item6 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.pic6, .pic4, .pic2 {
+    background-image: url(../images/sj-images/water04.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.pic2 {
+    background-image: url(../images/sj-images/water06.jpg);
+}
+
+.pic4 {
+    background-image: url(../images/sj-images/water02.jpg);
 }
 
 .item7 {
@@ -36,7 +54,7 @@ main section {
     grid-column-end: 4;
 }
 
-/* styling elements*/
+/*styling elements*/
 
 header {
     background-color: var(--white);
@@ -45,22 +63,64 @@ header {
 
 .hero-orcas {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 16px;
 }
 
-header a, header p {
+header a, header p, nav a {
     color:lightgrey;
     text-decoration: none;
 }
-.hero-orcas {
+
+.hero-orcas, main section {
     background-image: url(../images/sj-images/sj-034.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
 }
+
 h1 {
     color: var(--white);
     text-transform: uppercase;
     text-shadow: #074817 3px 3px 3px;
+}
+
+nav ul {
+background-color: var(--white);
+}
+
+nav ul li {
+    list-style-type: none;
+    text-align: center;
+    height: 100px;
+}
+
+nav ul li:hover {
+    background-color: lightgray;
+    color: var(--white)
+}
+
+main section {
+    height: 400px;
+
+}
+
+.item1 {
+    background-image: url(../images/sj-images/sj-046.jpg);
+}
+
+.item3 {
+    background-image: url(../images/sj-images/sj-062.jpg);
+}
+
+.item5 {
+    background-image: url(../images/sj-images/sj-037.jpg);
+}
+
+.item7 {
+    background-image: url(../images/sj-images/sj-022.jpg);
+}
+
+.item2, .item4, .item6 {
+background-image: none;
 }
