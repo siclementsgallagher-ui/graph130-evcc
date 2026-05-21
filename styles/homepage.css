@@ -1,0 +1,119 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #f5f5f5;
+
+}
+
+/* create. aflex container for footer, main, and header elements*/
+header, main, footer {
+    display: flex;
+    width: 85%;
+    margin: 20px;
+    justify-content: space-between;
+}
+ 
+/* create even space in the header and footer navs */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+nav a{
+    border-left: solid black 1px;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+nav a :hover {
+    background-color: lightgray;
+}
+aside{
+    width: 20%;
+}
+aside p {
+    margin: 20px 20px 20px 0px;
+}
+.faze {
+    width: 80%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: 1s;
+    box-shadow: 2px 2px 10px black;
+
+}
+.faze:hover {
+    filter: none;
+}
+article {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project {
+    filter: grayscale(100%);
+    background-size: cover;
+    min-width: 300px;
+    min-height: 300px;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 2px;
+    transition: 1s;
+}
+.project:first-child {
+    width: 99.9%;
+    background-position: center;
+}
+.project:hover{
+filter; none;
+}
+.project p{
+    color: white;
+    text-shadow:8px 8px 20px
+    font-size: 25px;
+}   
+.project a {
+    padding: 100px 200px;
+    text-decoration: none;
+}
+
+#history {
+    background-image: url(../images/2-sputnik-1957.jpg);
+}
+#theater {
+    background-image: url(../images/forest.jpeg);
+}
+#stew-recipe {
+    background-image: url(../images/hero.jpg);
+}
+#cascade-mountains {
+    background-image: url(../images/cascade_mountains-bg.jpg);
+}
+#images2 {
+    background-image: url(../images/flowers.jpg);
+}
+#fluid {
+    background-image: url(../images/fluid01.jpg);
+}
+#fluid {
+    background-image: url(../images/fluid01.jpg);
+}
+#fluid {
+    background-image: url(../images/forest.jpeg);
+}
+#fluid {
+    background-image: url(../images/forest.jpeg);
+}
+#fluid {
+    background-image: url(../images/forest.jpeg);
+}
