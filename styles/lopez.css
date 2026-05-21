@@ -45,6 +45,9 @@ main {
 .item4{
     grid-area: middle;
 }
+.item5{
+    grid-area: last;
+}
 .item6 {
     grid-area: bottom1;
 }
