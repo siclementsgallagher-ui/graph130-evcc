@@ -99,21 +99,21 @@ filter; none;
 #cascade-mountains {
     background-image: url(../images/cascade_mountains-bg.jpg);
 }
+#fluid {
+    background-image: url(../images/bruce-lee.jpg);
+}
 #images2 {
     background-image: url(../images/flowers.jpg);
 }
-#fluid {
-    background-image: url(../images/fluid01.jpg);
+#media-queries {
+    background-image: url(../images/.jpg);
 }
-#fluid {
-    background-image: url(../images/fluid01.jpg);
+#orcas {
+    background-image: url(../images/sj-images/sj-062.jpg);
 }
-#fluid {
-    background-image: url(../images/forest.jpeg);
+#lopez {
+    background-image: url(../images/.jpeg);
 }
-#fluid {
-    background-image: url(../images/forest.jpeg);
-}
-#fluid {
-    background-image: url(../images/forest.jpeg);
+#cascades-refactor {
+    background-image: url(../images/.jpeg);
 }
