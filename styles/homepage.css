@@ -12,7 +12,7 @@ body {
 header, main, footer {
     display: flex;
     width: 85%;
-    margin: 20px;
+    margin: 0 20px;
     justify-content: space-between;
 }
  
@@ -46,15 +46,15 @@ aside p {
     filter: grayscale(100%);
     transition: 1s;
     box-shadow: 2px 2px 10px black;
-
 }
 .faze:hover {
     filter: none;
 }
 article {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin: 0px;
 }
 .project {
     filter: grayscale(100%);
@@ -69,7 +69,7 @@ article {
     transition: 1s;
 }
 .project:first-child {
-    width: 99.9%;
+    width: 33.3%;
     background-position: center;
 }
 .project:hover {
@@ -85,6 +85,7 @@ filter: none;
     text-decoration: none;
 }
 
+/* Individual background images */
 #history {
     background-image: url(../images/2-sputnik-1957.jpg);
 }
@@ -94,23 +95,23 @@ filter: none;
 #stew-recipe {
     background-image: url(../images/hero.jpg);
 }
-#cascade-mountains {
+#cascades {
     background-image: url(../images/cascade_mountains-bg.jpg);
-}
-#fluid {
-    background-image: url(../images/bruce-lee.jpg);
 }
 #images2 {
     background-image: url(../images/flowers.jpg);
 }
+#fluid {
+    background-image: url(../images/fluid01.jpg);
+}
 #media-queries {
-    background-image: url(../images/.jpg);
+    background-image: url(../images/disco-ball.jpg);
 }
 #orcas {
     background-image: url(../images/sj-images/sj-062.jpg);
 }
 #lopez {
-    background-image: url(../images/.jpeg);
+    background-image: url(../images/sj-images/sj-016.jpg);
 }
 #cascades-refactor {
     background-image: url(../images/.jpeg);
