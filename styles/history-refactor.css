@@ -7,7 +7,7 @@ body {
  
 }
 
-.hero {
+.history-hero {
     display:flex;
     justify-content: center; /*aligned horizonrtal*/
     align-items: center; /*aligned vertical*/
