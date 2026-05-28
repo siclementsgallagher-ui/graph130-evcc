@@ -51,7 +51,7 @@ aside p {
     filter: none;
 }
 article {
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     margin: 0px;
