@@ -28,7 +28,7 @@ nav a{
     align-content: center;
     padding: 15px;
     text-decoration: none;
-    color: black;
+    color: rgb(3, 41, 81);
     width: 100%;
 }
 nav a :hover {
@@ -36,6 +36,13 @@ nav a :hover {
 }
 aside{
     width: 20%;
+}
+
+.page-layout{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
 }
 aside p {
     margin: 20px 20px 20px 0px;
@@ -51,38 +58,40 @@ aside p {
     filter: none;
 }
 article {
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     margin: 0px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
 }
 .project {
     filter: grayscale(100%);
     background-size: cover;
-    min-width: 300px;
-    min-height: 300px;
-    width: 33.3%;
+    min-width: 150px;
+    width: 30%;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: black solid 2px;
     transition: 1s;
 }
-.project:first-child {
-    width: 33.3%;
-    background-position: center;
-}
+
 .project:hover {
 filter: none;
 }
 .project p {
-    color: white;
+    color: rgb(7, 36, 50);
     text-shadow:8px 8px 20px black;
     font-size: 25px;
 }   
 .project a {
     padding: 100px 200px;
     text-decoration: none;
+    color: aliceblue;
 }
 
 /* Individual background images */
@@ -114,5 +123,5 @@ filter: none;
     background-image: url(../images/sj-images/sj-016.jpg);
 }
 #cascades-refactor {
-    background-image: url(../images/.jpeg);
+    background-image: url(../images/cascade_mountains-bg.jpg);
 }
